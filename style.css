@@ -42,20 +42,29 @@ a {
 }
 
 
-
-/* @media only screen and (min-width:576px and max-width:767px){
-    .col-md-4 {
-        width: 50%;
-    }
-} */
-
-@media only screen and (max-width:576px){
-    img.img-fluid {
-        width: 100%;
-    }
+@media only screen and (max-width:991px){
     .content-div {
         text-align: center;
     }
+}
+
+@media only screen and (max-width:767px){
+    .col-md-4 img{
+        width: 100%;
+    }
+    .col-md-4 {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .img-fluid.men-image {
+        width: 50%;
+    }
+    .col-md-4 img {
+        width: 100%;
+    }
+    
     .col-md-4 {
         margin-top: 10px;
     }
