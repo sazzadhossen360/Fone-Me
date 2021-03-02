@@ -55,6 +55,9 @@ a {
     .col-md-4 {
         margin-top: 10px;
     }
+    .image-gallery.mt-5 {
+        margin-top: 30px!important;
+    }
 }
 
 @media only screen and (max-width:575px){
